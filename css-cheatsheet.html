@@ -1,4 +1,22 @@
-<h1>CSS Cheat Sheet</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Basics</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+        <nav>
+                <a href="index.html">Home</a> | 
+                <a href="cssinfo.html">CSS</a> | 
+                <a href="htmlinfo.html">HTML</a> | 
+                <a href="javscript.html">JavaScript</a> | 
+                <a href="interests.html">Interests</a> | 
+                <a href="tocheckout.html">Checks</a>
+            </nav>
+            <hr>
+    <header><h1>CSS Cheat Sheet</h1></header>
 
   <p> Reference:</p> 
   <ul>
@@ -9,18 +27,18 @@
     <p>Cascading Style Sheets at the most basic level it indicates that the order of CSS rules matter. </p>
     
     <ul>
-   <li> .class</li>
-   <li>  #id</li>
-    <li> *</li>
-    <li> element</li>
-    <li> element, element</li>
-    <li> element element</li>
-    <li> element > element</li>
-    <li> element + element</li>
-    <li> :hover</li>
-    <li> :last-child</li>
-    <li> :first-child</li>
-    <li> !important (not recommended)</li>
+   <li> <strong>.class</strong>: will apply to multiple classes/li>
+   <li>  <strong>#id</strong>:use same id only once, otherwise will break the rules</li>
+    <li> <strong>*</strong>:sybolizes all elements.  not used often.  will be overwritten by specificity.</li>
+    <li> <strong>element</strong>: applies css to specific element</li>
+    <li> <strong>element, element</strong>: applies css to multiple elements</li>
+    <li> <strong>element element</strong>: second element tag inside first element tag</li>
+    <li> <strong>element > element/strong>: first element followed by second element (has a parent element)</li>
+    <li> <strong>element + element</strong>: any second element immediately after first element</li>
+    <li> <strong>:hover</strong>:when mouse over, css style shows</li>
+    <li> <strong>:last-child</strong>: css style will apply to last child</li>
+    <li> <strong>:first-child</strong>: css style will apply to first</li>
+    <li> <strong>!important</strong>not recommended, will override other css selectors ignoring order</li>
 </ul>
     
     <p>What seletors win out in the cascade depends on:</p>
