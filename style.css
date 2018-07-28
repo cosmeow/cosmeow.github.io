@@ -1,0 +1,14 @@
+/* Selector {
+    Propery:value;
+
+    note: as addding selectors,go from top to bottom
+}
+*/
+
+h2, p {color:#08204A;
+    text-align: center;
+    border: 5px solid rgb(24, 127, 196);
+    cursor: pointer;}
+p {color:pink;}
+p { color:green;}
+li {list-style: none;display:inline-block;}
