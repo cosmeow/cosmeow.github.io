@@ -12,3 +12,4 @@ header+h1, nav {margin-bottom:40px;}
 nav {list-style: none;float:right;}
 section > h2 {font-size:16px;color:brown;}
 p { color:green;line-height: 20px;}
+img {float:left;}
